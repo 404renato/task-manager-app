@@ -74,7 +74,7 @@ export function TaskCreate() {
           numberOfLines={5}
           value={description}
           onChangeText={setDescription}
-          style={[styles.input, { textAlignVertical: 'top' }]}
+          style={[styles.input, { textAlign: 'left', marginBottom: 85 }]}
           autoCorrect={false}
           placeholder="description"
           placeholderTextColor={theme.colors.holder}
