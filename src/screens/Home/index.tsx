@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, useCallback } from 'react'
+import React, { useState, useRef, useCallback } from 'react'
 import { View, Text, FlatList, TouchableOpacity } from 'react-native'
 import { useFocusEffect, useNavigation } from '@react-navigation/native'
 import AsyncStorage from '@react-native-async-storage/async-storage'
@@ -6,7 +6,6 @@ import { Modalize } from 'react-native-modalize'
 
 import { Entypo } from '@expo/vector-icons'
 
-import { Load } from '../../components/Load'
 import { Header } from '../../components/Header'
 import { ListDivider } from '../../components/ListDivider'
 import { TaskDetails } from '../TaskDetails'
